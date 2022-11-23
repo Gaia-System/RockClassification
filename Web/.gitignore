@@ -1,2 +1,5 @@
-# python
-__pycache__
+# pyc
+__pycache__/
+*.py[cod]
+*.pyc
+__pycache__/
