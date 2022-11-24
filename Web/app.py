@@ -10,7 +10,7 @@ import CV_model
  
 app = Flask(__name__)
  
-UPLOAD_FOLDER = 'static/uploads/'
+UPLOAD_FOLDER = 'Web/static/uploads/'   # add Web/ bacause the image files are existing in the Web directory
  
 app.secret_key = "secret key"
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
